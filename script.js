@@ -46,7 +46,9 @@ class Calculator {
           computation = prev * current
           break
         case '÷':
-          computation = prev / current
+              computation = prev / current
+          case '%':
+              computation = prev % current
           break
         default:
           return
